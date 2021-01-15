@@ -23,5 +23,5 @@ print("Hey " + userName)
 
 #ask user for their birth year
 
-userBirth = input("When is your birth year? ")
-print("Wow you are " + str(2021-int(userBirth)) + " years old!")
+userBirth = int(input("When is your birth year? "))
+print("Wow you are " + str(2021-userBirth) + " years old!")
